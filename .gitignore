@@ -1,4 +1,5 @@
-setting.py
+settings.py
 __pycache__/
 venv/
 ERP_env/
+*.pyc
