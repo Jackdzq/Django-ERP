@@ -1,0 +1,4 @@
+setting.py
+__pycache__/
+venv/
+ERP_env/
