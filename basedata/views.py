@@ -42,6 +42,3 @@ def action_import(request,object_id):
     return TemplateResponse(request,'admin/invent/stockin/in_confirmation.html', context)
 
 
-#测试2
-#测试2
-#测试2
