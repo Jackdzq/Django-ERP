@@ -32,7 +32,7 @@ def action_import(request,object_id):
 
     context = dict(
         site.each_context(request),
-        title=title,
+        title=title,s
         opts=opts,
         objects_name=objects_name,
         object=obj,
@@ -40,4 +40,3 @@ def action_import(request,object_id):
     request.current_app = site.name
 
     return TemplateResponse(request,'admin/invent/stockin/in_confirmation.html', context)
-
