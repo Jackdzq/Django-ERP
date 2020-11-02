@@ -310,3 +310,6 @@ class BOAdmin(admin.ModelAdmin):
     class Media:
         css = {'all':('css/maximus.css',)}
         js = ('js/maximus.js',)
+
+#测试2
+
