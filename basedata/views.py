@@ -40,3 +40,6 @@ def action_import(request,object_id):
     request.current_app = site.name
 
     return TemplateResponse(request,'admin/invent/stockin/in_confirmation.html', context)
+
+
+#测试2
